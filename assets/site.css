@@ -311,3 +311,19 @@ aside.side .card+.card{position:static}
 .fcities p{margin:0;line-height:2}
 .city-links{line-height:2}
 .feat-city{border-top:3px solid var(--gold)}.feat-city h3{font-size:1.45rem}
+
+/* v4 service-first home */
+.two-up{grid-template-columns:repeat(2,minmax(0,1fr))}
+.pros .card{padding:2rem 1.8rem}.pros .card h3{font-size:1.4rem;margin:.9rem 0 .6rem}.pros .arrow-link{color:var(--gold-l);display:inline-flex;gap:.4rem;align-items:center;margin-top:.6rem;font-weight:600}
+.off-act{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1.2rem}
+.offices .sp{display:inline-block;width:20px;flex:none}
+.res-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:.9rem}
+.res-grid .card{display:flex;gap:.8rem;align-items:flex-start;padding:1.1rem 1rem}
+.res-grid .card .icon{width:38px;height:38px;margin:0;flex:none}.res-grid .card .icon .ico{width:18px;height:18px}
+.res-grid h3{font-size:1rem;margin:0 0 .25rem;font-family:Inter,system-ui,sans-serif;font-weight:600}.res-grid p{font-size:.86rem;margin:0;line-height:1.45}
+.resources .sec-head{margin-bottom:1.4rem}
+.svc-lead{border:1px solid var(--line,#e6e1d6);border-left:3px solid var(--gold);background:#fbf9f4;padding:1.1rem 1.3rem;margin:0 0 1.8rem;border-radius:4px}
+.svc-lead p{margin:.25rem 0}.svc-lead a[href^="tel"]{white-space:nowrap}
+.ftag{color:#aeb9c9;margin:.2rem 0 0;font-size:.92rem;flex-basis:100%}
+@media (max-width:1060px){.res-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:760px){.two-up,.res-grid{grid-template-columns:1fr}}
