@@ -359,3 +359,12 @@ nav.main .btn.login:hover{background:var(--gold);border-color:var(--gold);color:
 .pre-cta form.lead label{color:#e3e8ef}
 .prose .pre-cta p.consent{color:#9fabbd;font-size:.76rem;margin:.7rem 0 0}
 @media (max-width:640px){.pre-cta{padding:1.3rem 1.1rem 1.1rem}}
+
+/* deal portal login (top bar, all widths below desktop nav) */
+.bar a.btn.top-login{display:none}
+.top-login .tl-short{display:none}
+@media (max-width:1280px){.bar{gap:.6rem}.bar a.btn.top-login{display:inline-flex;margin-left:auto;white-space:nowrap;flex:none;background:transparent;color:var(--gold-d)!important;border:1px solid var(--gold);padding:.5rem .8rem;font-size:.88rem}.bar a.btn.top-login:hover{background:var(--gold);border-color:var(--gold);color:#fff!important}.menu-toggle{flex:none}nav.main .nav-login{display:none}nav.main .nav-cta{margin:1rem 0 0}}
+@media (max-width:640px){.bar a.btn.top-login{padding:.45rem .6rem;font-size:.8rem}.bar .menu-toggle{padding:.45rem .6rem}}
+@media (max-width:480px){.top-login .tl-full{display:none}.top-login .tl-short{display:inline}.menu-toggle .mt-label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.bar .menu-toggle{padding:.55rem .6rem;min-height:34px}.bar{gap:.45rem}.logo{gap:.5rem}.logo .mark{width:30px;height:30px}.wm-name{font-size:1.06rem}.wm-sub{font-size:.52rem;letter-spacing:.2em}}
+@media (max-width:374px){.wm-name{font-size:.98rem}.bar a.btn.top-login{padding:.42rem .5rem;font-size:.76rem}}
+@media (max-width:340px){.logo .mark{display:none}.bar{gap:.35rem}}
