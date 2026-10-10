@@ -377,8 +377,8 @@ nav.main .btn.login:hover{background:var(--gold);border-color:var(--gold);color:
 @media (max-width:640px){.photo-pair{grid-template-columns:1fr}}
 .pc{position:absolute;right:0;bottom:0;max-width:100%;padding:.2rem .5rem;font:400 10px/1.4 var(--sans);letter-spacing:.01em;color:rgba(255,255,255,.72);background:rgba(7,21,41,.32);border-top-left-radius:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .pc a{color:inherit!important;text-decoration:none}.pc a:hover{color:#fff!important;text-decoration:underline}
-.ptiles{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.1rem}
-@media (max-width:980px){.ptiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.ptiles{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1.1rem}
+@media (max-width:1100px){.ptiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:560px){.ptiles{grid-template-columns:1fr;gap:.9rem}.ptile img{aspect-ratio:16/10}}
 .ptile{position:relative;border-radius:var(--r);overflow:hidden;background:var(--navy);box-shadow:var(--shadow);line-height:0}
 .ptile>a{display:block;position:relative;text-decoration:none;color:#fff}
